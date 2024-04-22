@@ -26,12 +26,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo created Hello, world!
+
+      - name: Run a two-line script
  
-  deploy:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Run a two-line script
-         run: echo successfully deployed
+ 
        
 
       
